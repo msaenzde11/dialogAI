@@ -1,0 +1,11 @@
+name: dialog
+channels:
+  - conda-forge
+dependencies:
+  - python=3.5
+  - jupyter
+  - pandas 
+  - numpy
+  - pip:
+    - tensorflow==2.0.0-alpha0
+    - keras
