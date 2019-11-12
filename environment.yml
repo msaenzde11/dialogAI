@@ -4,8 +4,10 @@ channels:
 dependencies:
   - python=3.5
   - jupyter
-  - pandas 
+  - pandas
   - numpy
   - pip:
-    - tensorflow==2.0.0-alpha0
-    - keras
+      - tensorflow==2.0.0-alpha0
+      - nltk==3.4.5
+      - pytest==5.2.0
+      - spacy==2.1.8
